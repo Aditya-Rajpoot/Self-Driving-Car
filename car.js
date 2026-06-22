@@ -137,7 +137,7 @@ class Car{
         this.x-=Math.sin(this.angle)*this.speed;
         this.y-=Math.cos(this.angle)*this.speed;
     }
-
+    
     draw(ctx,drawSensor=false){
         if(this.sensor && drawSensor){
             this.sensor.draw(ctx);
