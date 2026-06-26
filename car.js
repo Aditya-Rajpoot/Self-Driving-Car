@@ -142,7 +142,7 @@ class Car{
         if(this.sensor && drawSensor){
             this.sensor.draw(ctx);
         }
-
+        
         ctx.save();
         ctx.translate(this.x,this.y);
         ctx.rotate(-this.angle);
@@ -154,12 +154,12 @@ class Car{
                 this.height);
             ctx.globalCompositeOperation="multiply";
         }
+        
         ctx.drawImage(this.img,
             -this.width/2,
             -this.height/2,
             this.width,
             this.height);
         ctx.restore();
-
     }
 }
