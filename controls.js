@@ -45,6 +45,7 @@ class Controls{
                 case "ArrowDown":
                     this.reverse=false;
                     break;
+                    
             }
         }
     }
