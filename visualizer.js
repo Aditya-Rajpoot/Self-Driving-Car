@@ -96,7 +96,6 @@
             }
         }
     }
-
     static #getNodeX(nodes,index,left,right){
         return lerp(
             left,
