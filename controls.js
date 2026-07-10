@@ -14,6 +14,7 @@ class Controls{
                 break;
         }
     }
+    
     #addKeyboardListeners(){
         document.onkeydown=(event)=>{
             switch(event.key){
